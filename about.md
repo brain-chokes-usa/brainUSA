@@ -8,13 +8,13 @@ permalink: /about/
 
 The "choke-in-choke" inner profile of BRAIN choke tubes is the biggest breakthrough in the history of chokes due to the enhanced periphery.
 
-![choke in choke](/assets/choke_in_choke.png)
+![choke in choke]({{site.baseurl}}/assets/choke_in_choke.png)
 
 ## How It Functions
 
 BRAIN Chokes start with a tightening section before the expansion and this makes a very big difference! This first tightening section creates a dense core but, as the shot load passes through the expansion section gets more pellets from core to periphery and, because it enters the final tightening being at a phase of expanding, there is no more a dense core at the final pattern.
 
-![enhanced periphery](/assets/periphery.png)
+![enhanced periphery]({{site.baseurl}}/assets/periphery.png)
 
 ## Constriction Guide
 
