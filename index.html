@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Shop</h1>
+
+  <ul class="product-list">
+    {% for product in site.products %}
+      {% include product.html %}
+    {% endfor %}
+  </ul>
+</div>
+
+

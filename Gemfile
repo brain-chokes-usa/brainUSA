@@ -1,12 +1,7 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'nokogiri'
-gem 'htmlentities'
-
-group :development do
-  gem 'pry'
-end
-
-group :test do
-  gem 'rspec'
-end
+gem "jekyll"
+gem "jekyll-watch"
+gem "redcarpet"
+gem "kramdown"
+gem "rouge"
