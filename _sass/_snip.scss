@@ -1,0 +1,9 @@
+.snip-layout .snip-header, 
+.snip-layout .snip-footer
+{
+    background: $alternate-color;
+}
+
+.snip-layout .snip-header__total {
+    background: none;
+}
