@@ -6,6 +6,11 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+
+        <a href="#" class="page-link snipcart-checkout">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Cart (<text class="snipcart-total-items">0</text>)
+        </a>
     </nav>
 
     <h1>
