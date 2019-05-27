@@ -15,5 +15,5 @@ comp-constrictions: "Competition 1|Competition 2|Competition 3|Competition 4|Com
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
-redcarpet:
+kramdown:
   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
