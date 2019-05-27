@@ -97,6 +97,12 @@
       }
     }
   }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .card {
+      width: 100%;
+    }
+  }
   
   .card-body {
     // Enable `flex-grow: 1` for decks and groups so that card blocks take up
