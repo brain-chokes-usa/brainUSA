@@ -7,6 +7,10 @@ url: "https://brain-chokes-usa.github.io"
 collections:
     - products
 
+colors: "Black|Red|Khaki|Natural"
+hunt-constrictions: "Bell|Close Range|Medium Range|Tight Medium|Long Range|Tight Long|Beyond Χtreme|Slug Align"
+comp-constrictions: "Competition 1|Competition 2|Competition 3|Competition 4|Competition 5|Competition 6|Competition 7"
+
 # Build settings
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md

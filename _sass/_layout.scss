@@ -101,6 +101,8 @@
     .product-list {
         margin-left: 0;
         list-style: none;
+        display: flex;
+        flex-flow: wrap;
 
         > li {
             display: block;

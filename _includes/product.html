@@ -1,20 +1,39 @@
-<div class="product">
-    <div class="card" style="width: 14rem;">
-      <a class="product" href="{{ site.baseurl }}{{ product.url }}">
-        <img src="{{ product.image }}" class="card-img-top" alt="{{ product.name }}">
-      </a>
-      <div class="card-body">
-        <h5 class="card-title">{{ product.name }}</h5>
-        <p class="card-text">{{ product.short }}<br>${{ product.price }}</p>
-        <button class="btn btn-primary snipcart-add-item"
-          data-item-name="{{ product.name }}"
-          data-item-id="{{ product.sku }}"
-          data-item-image="{{ product.image }}"
-          data-item-url="{{ site.baseurl }}"
-          data-item-categories="{{ product.categories }}"
-          data-item-price="{{ product.price }}">
-          Add to Cart
-        </button>
-      </div>
-    </div>
+<div class="card" style="width: 14rem;">
+  <a class="product" href="{{ site.baseurl }}{{ product.url }}">
+    <img src="{{ product.image }}" class="card-img-top" alt="{{ product.name }}">
+  </a>
+  <div class="card-body">
+    <h5 class="card-title">{{ product.name }}</h5>
+    <p class="card-text">{{ product.short }}<br>${{ product.price }}</p>
+    <button class="btn btn-default snipcart-add-item"
+      data-item-name="{{ product.name }}"
+      data-item-description="HUNTING"
+      data-item-id="{{ product.sku }}"
+      data-item-image="{{ product.image }}"
+      data-item-url="{{ site.baseurl }}"
+      data-item-categories="{{ product.categories }}"
+      data-item-price="{{ product.price }}"
+      data-item-custom1-name="Color"
+      data-item-custom1-options="{{ site.colors }}"
+      data-item-custom2-name="Constriction"
+      data-item-custom2-options="{{ site.hunt-constrictions }}"
+      >
+      Buy to Hunt
+    </button>
+    <button class="btn btn-primary snipcart-add-item"
+      data-item-name="{{ product.name }}"
+      data-item-description="COMPETITION"
+      data-item-id="{{ product.sku }}"
+      data-item-image="{{ product.image }}"
+      data-item-url="{{ site.baseurl }}"
+      data-item-categories="{{ product.categories }}"
+      data-item-price="{{ product.price }}"
+      data-item-custom1-name="Color"
+      data-item-custom1-options="{{ site.colors }}"
+      data-item-custom2-name="Constriction"
+      data-item-custom2-options="{{ site.comp-constrictions }}"
+      >
+      Buy to Compete
+    </button>
   </div>
+</div>

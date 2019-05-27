@@ -87,6 +87,8 @@
 // --------------------------------------------------
 
 .btn {
+  width: 100%;
+  margin: 5px;
   display: inline-block;
   margin-bottom: 0; // For input.btn
   font-weight: $btn-font-weight;
@@ -146,7 +148,7 @@ a.btn {
 // --------------------------------------------------
 
 .btn-default {
-  @include button-variant($btn-default-color, $btn-default-bg, $btn-default-border);
+  @include button-variant($btn-primary-color, $hunt-color, $hunt-color);
 }
 .btn-primary {
   @include button-variant($btn-primary-color, $brand-color, $brand-color);
