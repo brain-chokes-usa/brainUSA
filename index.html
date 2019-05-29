@@ -5,12 +5,10 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Store</h1>
-
-  <div class="product-list">
-      {% for product in site.products %}
-          {% include product.html %}
-      {% endfor %}
+    <div class="product-list">
+        {% for product in site.products %}
+            {% include product.html %}
+        {% endfor %}
     </div>
 
 </div>

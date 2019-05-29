@@ -151,7 +151,7 @@ a.btn {
   @include button-variant($btn-primary-color, $hunt-color, $hunt-color);
 }
 .btn-primary {
-  @include button-variant($btn-primary-color, $brand-color, $brand-color);
+  @include button-variant($btn-primary-color, $compete-color, $compete-color);
 }
 // Success appears as green
 .btn-success {
