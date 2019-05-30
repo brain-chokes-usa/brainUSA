@@ -10,12 +10,11 @@
         background-image: url('../assets/flag.jpg');
         background-size: cover;
         background-position: center -170px;
-        background-repeat: no-repeat; 
         background-attachment: fixed;
 
         @include media-query($on-palm) {
             min-height: 250px;
-            background-position: center -250;
+            background-position: center -250px;
         }
     }
 
