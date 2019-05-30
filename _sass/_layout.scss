@@ -33,6 +33,7 @@
         @include media-query($on-palm) {
             font-size: 50px !important;
             letter-spacing: 0px;
+            padding-top: 0;
         }
     }
 
