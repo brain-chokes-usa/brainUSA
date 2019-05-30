@@ -2,8 +2,8 @@
 title: "Brain Chokes USA"
 email: 
 description: "The Evolution of Choke"
-baseurl: "/brainUSA" 
-url: "https://brain-chokes-usa.github.io" 
+baseurl: "" 
+url: "https://brain-usa.com" 
 collections:
     - products
 
