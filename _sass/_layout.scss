@@ -9,6 +9,9 @@
         background-color: $brand-color;
         background-image: url('../assets/flag.jpg');
         background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-position: center -170px;
         background-attachment: fixed;
 
