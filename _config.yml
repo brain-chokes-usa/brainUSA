@@ -7,6 +7,8 @@ url: "https://brain-usa.com"
 collections:
     - products
 
+# Snipcart Settings
+api-key: "OTYzMjI1OTktYThlNC00ZTMzLThhMTgtMmI5NTMwZjQyOWJkNjM2OTQ5OTE1NjQ1MjE4Mjk2"
 colors: "Black|Red|Khaki|Natural"
 hunt-constrictions: "Bell|Close Range|Medium Range|Tight Medium|Long Range|Tight Long|Beyond Χtreme|Slug Align"
 comp-constrictions: "Competition 1|Competition 2|Competition 3|Competition 4|Competition 5|Competition 6|Competition 7"
