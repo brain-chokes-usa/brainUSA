@@ -16,10 +16,11 @@
         background-attachment: fixed;
 
         @include media-query($on-palm) {
-            min-height: 250px;
+            min-height: 330px;
             background-image: url('../assets/flag-mobile.jpg');
             background-position: center center;
             background-repeat: no-repeat;
+            background-attachment: unset;
         }
     }
 
