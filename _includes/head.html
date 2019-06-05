@@ -3,11 +3,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:url" content="{{ site.url }}" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" name="twitter:site" content="{{ site.url }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ site.title }}" />
-  <meta property="og:description" content="{{ site.description }}" />
-  <meta property="og:image" content="{{ "/assets/logo.png" | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:title" name="twitter:title" content="{{ site.title }}" />
+  <meta property="og:description" name="twitter:description" content="{{ site.description }}" />
+  <meta property="og:image" name="twitter:image" content="{{ "/assets/logo.png" | prepend: site.baseurl | prepend: site.url }}" />
 
   <link rel="icon" href="{{ "/assets/favicon.png" | prepend: site.baseurl }}">
 
